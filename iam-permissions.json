@@ -1,0 +1,14 @@
+{
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeReservedInstances",
+                "ec2:DescribeReservedInstancesOfferings"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
